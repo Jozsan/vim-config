@@ -68,6 +68,7 @@ set showcmd		" Show (partial) command in status line.
 "set mouse=a		" Enable mouse usage (all modes)
 colorscheme turtles
 set t_Co=256
+hi Normal guibg=NONE ctermbg=NONE
 " Source a global configuration file if available
 if filereadable("/etc/vim/vimrc.local")
   source /etc/vim/vimrc.local
@@ -83,5 +84,6 @@ Plug 'honza/vim-snippets' "Autocompletion
 Plug 'altercation/vim-colors-solarized'
 Plug 'ap/vim-buftabline'
 Plug 'posva/vim-vue'
+Plug 'reewr/vim-monokai-phoenix'
 call plug#end()
 " ---- End plugin section ----"
