@@ -91,6 +91,7 @@ let s:yellow      = { "gui": "#E6DB74", "cterm": "186" }
 let s:orange      = { "gui": "#E1AD3D", "cterm": "208" }
 let s:purple      = { "gui": "#BE5A79", "cterm": "141" }
 let s:red         = { "gui": "#DD4641", "cterm": "196" }
+let s:folder      = { "gui": "#8FAA54", "cterm": "76" }
 
 let s:addfg       = { "gui": "#d7ffaf", "cterm": "193" }
 let s:addbg       = { "gui": "#5f875f", "cterm": "65" }
@@ -204,7 +205,8 @@ call s:h("NERDTreeBookmarkName",    { "fg": s:yellow })
 call s:h("NERDTreeCWD",             { "fg": s:pink })
 call s:h("NERDTreeUp",              { "fg": s:white })
 call s:h("NERDTreeDirSlash",        { "fg": s:pink })
-call s:h("NERDTreeDir",             { "fg": s:aqua })
+
+call s:h("NERDTreeDir",             { "fg": s:folder })
 
 " Language highlight
 " ------------------
